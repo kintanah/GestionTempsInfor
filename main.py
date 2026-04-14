@@ -6,7 +6,7 @@ import traceback
 import re
 
 # --- CONFIGURATION ---
-st.set_page_config(page_title="Outil Kintana - Réconciliation", layout="wide")
+st.set_page_config(page_title="Outil Infor_Spoon - Réconciliation", layout="wide")
 st.title("📊 Validation Signature : Date-Nom : Description (Heures)")
 
 
@@ -157,7 +157,7 @@ if file_beeline and file_ts and file_mapping and cp_list:
             st.download_button(
                 "📥 Télécharger Rapport Excel",
                 to_excel(df_viz),
-                "reconciliation_kintana.xlsx"
+                "reconciliation_Infor_Spoon.xlsx"
             )
         else:
             st.warning("Aucune donnée à afficher.")
